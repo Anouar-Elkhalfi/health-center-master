@@ -16,7 +16,7 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-     TYPOGRAPHY              
+     TYPOGRAPHY
   -----------------------------------------*/
 
   h1,h2,h3,h4,h5,h6 {
@@ -69,7 +69,7 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-     GENERAL               
+     GENERAL
   -----------------------------------------*/
 
   html{
@@ -197,15 +197,31 @@ http://www.tooplate.com/view/2098-health
     text-align: center;
   }
 
-  #google-map {
+  /* #google-map {
     line-height: 0;
     margin: 0;
     padding: 0;
-  }
+  } */
+  #google-map {
+    position: relative;
+    width: 100%;
+    height: 50vh; /* Full viewport height */
+    padding: 0;
+}
+
+#google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 
 
   /*---------------------------------------
-       PRE LOADER              
+       PRE LOADER
   -----------------------------------------*/
 
   .preloader {
@@ -255,7 +271,7 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-      MENU              
+      MENU
   -----------------------------------------*/
 
   header {
@@ -302,7 +318,7 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-      MENU              
+      MENU
   -----------------------------------------*/
 
   .navbar-default {
@@ -378,14 +394,14 @@ http://www.tooplate.com/view/2098-health
   }
 
   .navbar-default .navbar-toggle:hover,
-  .navbar-default .navbar-toggle:focus { 
+  .navbar-default .navbar-toggle:focus {
     background-color: transparent;
   }
 
 
 
   /*---------------------------------------
-      HOME              
+      HOME
   -----------------------------------------*/
 
   #home h1 {
@@ -465,7 +481,7 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-      ABOUT              
+      ABOUT
   -----------------------------------------*/
 
   #about {
@@ -499,7 +515,7 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-      TEAM MEMBERS              
+      TEAM MEMBERS
   -----------------------------------------*/
 
   .team-thumb {
@@ -566,7 +582,7 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-     SERVICE              
+     SERVICE
   -----------------------------------------*/
 
   #service {
@@ -599,7 +615,7 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-      NEWS             
+      NEWS
   -----------------------------------------*/
 
   #news, #news-detail {
@@ -748,7 +764,7 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-      APPOINTMENT             
+      APPOINTMENT
   -----------------------------------------*/
 
   #appointment {
@@ -790,7 +806,7 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-     FOOTER              
+     FOOTER
   -----------------------------------------*/
 
   footer {
@@ -909,7 +925,7 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-     SOCIAL ICON              
+     SOCIAL ICON
   -----------------------------------------*/
 
   .social-icon {
@@ -943,7 +959,7 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-     RESPONSIVE STYLES              
+     RESPONSIVE STYLES
   -----------------------------------------*/
 
   @media only screen and (max-width: 1200px) {
@@ -1054,4 +1070,3 @@ http://www.tooplate.com/view/2098-health
     }
 
   }
-
