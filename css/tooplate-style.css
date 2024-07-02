@@ -67,6 +67,26 @@ http://www.tooplate.com/view/2098-health
     line-height: 24px;
   }
 
+/*------------------------
+   Navbar phne number
+-------------------------*/
+.phone-icon {
+  position: fixed;
+  bottom: 20px; /* Position verticale */
+  right: 20px; /* Position horizontale */
+  background-color: #4CAF50; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  padding: 10px 20px; /* Espacement interne */
+  border-radius: 50px; /* Bords arrondis */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3); /* Ombre */
+  cursor: pointer; /* Curseur pointeur */
+  z-index: 1000; /* S'assurer que le bouton reste au-dessus des autres éléments */
+}
+
+.phone-icon i {
+  margin-right: 10px; /* Espacement entre l'icône et le texte */
+}
+
 
   /*---------------------------------------
      GENERAL
@@ -468,7 +488,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .slider .item-first {
-    background-image: url(../images/bayby6.jpg);
+    background-image: url(../images/about-bg.jpg);
   }
 
   .slider .item-second {
